@@ -1,4 +1,11 @@
 # repositorio 
-Elegi La red interna porque en una VM clase 2 no se usa en el adaptador NIC la interfaz puente por que conecta sin filtro la nic fisica, en cambio la interfaz red interna, crea una NIC independiente a la que podes acceder a cualquier wifi
-<img width="957" height="727" alt="image" src="https://github.com/user-attachments/assets/7ce90207-2e84-4192-8ca7-78e0dc92448f" />
-<img width="965" height="739" alt="image" src="https://github.com/user-attachments/assets/b5ccd37f-9ff6-4d03-a25e-8a0c205b1cf2" />
+Justificacion tecnica:
+Elegí el modo de red Red Interna porque permite que la máquina virtual esté aislada de Internet y de la red de mi casa. De esta manera, cualquier prueba o configuración que realice dentro de la máquina no afecta a otros dispositivos y se mantiene un entorno seguro para aprender y experimentar. No utilicé el modo Puente (Bridged) porque este conecta la máquina virtual directamente a la misma red que usa mi computadora real, haciéndola visible para otros equipos de la red. Esto aumenta los riesgos de seguridad y va en contra del objetivo de crear un laboratorio controlado y aislado para las pruebas iniciales.
+
+Captura de pantalla de la configuracion de red interna:
+<img width="951" height="731" alt="image" src="https://github.com/user-attachments/assets/7fbb3cd5-f941-4898-990a-8de292ab25c1" />
+
+Captura de pantalla del administrador de pantallas con mi primer snapshot:
+<img width="961" height="735" alt="image" src="https://github.com/user-attachments/assets/859dbc3c-9654-4d3d-b3d3-b129d1fbfeec" />
+
+
